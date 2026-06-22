@@ -1,1 +1,6 @@
 Part,Value/Part#,Qty,Notes
+Current sense amp,INA219,1,Adafruit
+Microcontroller,ESP32-D0WD-V3 dev board,1,-
+Display,SSD1306 0.96" bi-color OLED (I2C),1,-
+Test load,100Ω resistor,1,-
+Misc,Breadboard + jumper wires,1,-
