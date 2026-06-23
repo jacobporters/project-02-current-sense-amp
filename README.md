@@ -34,3 +34,13 @@ BOM:
 | Display | SSD1306 0.96" bi-color OLED (I2C) | 1 | - |
 | Test load | 100Ω resistor | 1 | - |
 | Misc | Breadboard + jumper wires | 1 | - |
+
+Wiring Pin Table:
+| ESP32 Pin | Connected to |
+| --------- | ------------ |
+| 3.3V | INA219 VCC, SSD1306 VCC |
+| GND | INA219 GND, SSD1306 GND |
+| D21 (SDA) | INA219 SDA, SSD1306 SDAD| 
+| 22 (SCL) | INA219 SCL, SSD1306 SCL |
+| VIN+ sense loop | INA219 VIN+ |
+| VIN- sense loop | INA219 VIN- → load → GND |
