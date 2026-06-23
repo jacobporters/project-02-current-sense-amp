@@ -14,24 +14,17 @@ I learned:
 - Troubleshooting ESP32 upload quirks and baud rates for different board variants.
 
 How to flash:
-Board: ESP32 Dev Module
-
-Upload Speed: 115200 baud
-
-Hold BOOT button if upload fails at "Connecting..."
-
-Libraries required: Adafruit INA219, Adafruit SSD1306, Adafruit GFX, Adafruit BusIO (all via Library Manager)
-
-Edit SSID, PASSWORD, and LAPTOP_IP in the config block at the top of the sketch before uploading
+- Board: ESP32 Dev Module
+- Upload Speed: 115200 baud
+- Hold BOOT button if upload fails at "Connecting..."
+- Libraries required: Adafruit INA219, Adafruit SSD1306, Adafruit GFX, Adafruit BusIO (all via Library Manager)
+- Edit SSID, PASSWORD, and LAPTOP_IP in the config block at the top of the sketch before uploading
 
 How to run logger:
-Requires Python 3, standard library only (no pip installs)
-
-Run __python3 log_current.py__ before powering the ESP32
-
-Output writes to __current_log.csv__ in the same directory
-
-Stop with Ctrl+C
+- Requires Python 3, standard library only (no pip installs)
+- Run __python3 log_current.py__ before powering the ESP32
+- Output writes to __current_log.csv__ in the same directory
+- Stop with Ctrl+C
 
 BOM:
 | Part | Value / Part # | Qty | Notes |
