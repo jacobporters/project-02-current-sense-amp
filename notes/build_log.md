@@ -18,6 +18,6 @@ Reused downstream:
 - The ESP32 + INA219 + SSD1306 platform and WiFi CSV logging pipeline built here are directly reused in Projects 3, 4, 8, 9, 10, and 11.
 
 References:\
-Adafruit INA219 guide (https://learn.adafruit.com/adafruit-ina219-current-sensor-breakpack)\
-TI INA219 datasheet (https://www.ti.com/product/INA219)\
+Adafruit INA219 guide (https://learn.adafruit.com/adafruit-ina219-current-sensor-breakpack) \
+TI INA219 datasheet (https://www.ti.com/product/INA219) \
 Adafruit SSD1306 library (https://github.com/adafruit/Adafruit_SSD1306)
