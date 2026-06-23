@@ -3,7 +3,7 @@ Build a reusable current/power measurement platform using the INA219 + ESP32 + S
 
 COMPLETE ✅ 
 
-IMAGES
+![Current sense amp with OLED display](media/photos/breadboard.jpg)
 
 Goal: Build a current sense amp displaying live current, voltage, and power readings to an auto-ranging OLED display over I2C. Utilize an ESP32 to stream timestamped CSV rows over UDP to a python logger on a laptop. 
 
