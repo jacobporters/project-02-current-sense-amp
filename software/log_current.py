@@ -4,7 +4,7 @@ import socket
 import csv
 from datetime import datetime
 
-LAPTOP_IP = '192.168.4.119'   # blank = listen on all interfaces
+LAPTOP_IP = ''   # blank = listen on all interfaces
 UDP_PORT  = 5005
 OUTPUT_FILE = 'current_log.csv'
 
